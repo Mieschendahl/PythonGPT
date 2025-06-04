@@ -1,12 +1,12 @@
 [project]
 name = "pythongpt"
 version = "1.0.0"
-description = "A project for natural language programming."
+description = "A project for natural language programming. (ChatGPT Version)"
 authors = [
     {name = "Leonardo Mieschendahl", email = "miesschendahl.leonardo@gmail.com"}
 ]
 dependencies = [
-    'openai >=1.83.0, <2.0.0',
+    'PromptGPT @ git+https://github.com/Mieschendahl/PromptGPT.git',
     'NaturalPy @ git+https://github.com/Mieschendahl/NaturalPy.git'
 ]
 
